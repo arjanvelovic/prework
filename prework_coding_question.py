@@ -19,13 +19,13 @@ def max_num_in_list(a_list):
 # Question 4:
 def is_leap_year(a_year):
     if a_year % 400 == 0:
-        return a_year
+        return True
     elif a_year % 100 == 0:
-        return None
+        return False
     elif a_year % 4 == 0:
-        return a_year
+        return True
     else:
-        return None
+        return False
 
 # Question 5:
 def is_consecutive(a_list):
